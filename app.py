@@ -5,12 +5,12 @@ from utils import MongoEncoder, DATABASE_URI, mail_settings
 from utils import process_answer
 
 client = MongoClient(DATABASE_URI)
-db = client.capstone
+db = client.Cogni4health
 
 app = Flask(__name__)
 app.json_encoder = MongoEncoder
 app.config.update(mail_settings)
-#mail = Mail(app)
+mail = Mail(app)
 
 @app.get('/')
 def index():
