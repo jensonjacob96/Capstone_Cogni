@@ -32,9 +32,9 @@ def get_form_submission():
     data = request.get_json()
     admin_emails = [user['email'] for user in db.Users.find()]
     total_score = process_answer(data)
-    if total_score > 20:
+    if total_score > 102:
         severity = 'RED'
-    elif total_score > 12:
+    elif total_score > 51:
         severity = 'AMBER'
     data['severity'] = severity
     data['score'] = total_score
