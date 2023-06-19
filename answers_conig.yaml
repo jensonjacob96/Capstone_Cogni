@@ -264,7 +264,7 @@
     6 : 6
   question_slug: marital
   type: single_select
-  - answer_scores:
+- answer_scores:
   Married : 0
   Single : 0
   Divorced : 0
