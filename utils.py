@@ -58,6 +58,6 @@ def get_score(question, answer):
 def process_answer(response: Dict):
     severity_score = 0
     for q, a in response.items():
-            severity_score += get_score(q, a)
+            severity_score += get_score(q, a).values()
 
     return (severity_score)
