@@ -30,13 +30,14 @@ def index():
 def get_form_submission():
     severity = 'GREEN'
     data = request.get_json()
-    admin_emails = [user['email'] for user in db.users.find()]
+    admin_emails = [user['email'] for user in db.Users.find()]
     total_score = process_answer(data)
     if total_score > 20:
         severity = 'RED'
     elif total_score > 12:
         severity = 'AMBER'
     data['severity'] = severity
+    data['score'] = total_score
     #data['severity_breakdown'] = breakdown
     db.response.insert_one(data)
     msg = Message('Health and Wellness Survey: New Submission Receieved!', recipients=admin_emails)
