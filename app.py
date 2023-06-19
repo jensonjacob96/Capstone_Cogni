@@ -43,8 +43,8 @@ def get_form_submission():
     msg.body = render_template('cognixrsummary.html', **data)
     msg.html = render_template('cognixrsummary.html', **data)
     mail.send(msg)
-    if data.get('provider_email') != None:
-        msg.recipients = [data['provider_email']]
+    if data.get('Email') != None:
+        msg.recipients = [data['Email']]
         mail.send(msg)
     return {'success': True, 'data': data}
 
