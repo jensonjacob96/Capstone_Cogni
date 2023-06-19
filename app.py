@@ -14,9 +14,7 @@ mail = Mail(app)
 
 @app.get('/')
 def index():
-    if (db.response.count_documents({}) == 0):
-	return ('Hello world')
-    else:
+    if (db.response.count_documents({}) > 0):
 	sample_record = db.response.find_one({}, sort=[( '_id', -1 )])
    	admin_emails = [user['email'] for user in db.Users.find()]
     	msg = Message('Health and Wellness Survey: New Submission Receieved!', recipients=admin_emails)
@@ -24,6 +22,8 @@ def index():
     	msg.html = render_template('cognixrsummary.html', **sample_record)
     	mail.send(msg)
     	return render_template('cognixrsummary.html', **sample_record)
+    else:
+	return ('Test failed')
     
 
 @app.post('/')
