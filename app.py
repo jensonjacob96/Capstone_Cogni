@@ -14,7 +14,7 @@ mail = Mail(app)
 
 @app.get('/')
 def index():
-    if (db.response.find_one({}, sort=[( '_id', -1 )]) == None):
+    if (db.response.find_one({}, sort=[( '_id', -1 )]) is None):
 	return ('Hello world')
     else:
 	sample_record = db.response.find_one({}, sort=[( '_id', -1 )])
