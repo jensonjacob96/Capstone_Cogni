@@ -55,17 +55,9 @@ def get_score(question, answer):
                 pass
         return total
 
-def process_answer(response: Dict) -> Tuple:
-    severity_score = {
-        'general': 0,
-        'ptsd': 0,
-        'anxiety': 0,
-        'sud': 0,
-        'trauma': 0
-    }
+def process_answer(response: Dict):
+    severity_score = 0
     for q, a in response.items():
-            severity_score['general'] += get_score(q, a)
+            severity_score += get_score(q, a)
 
-    total_severity = sum(severity_score.values())
-
-    return (total_severity) 
+    return (severity_score)
