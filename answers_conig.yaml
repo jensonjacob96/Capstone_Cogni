@@ -10,13 +10,13 @@
 - question_slug: exhausted
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: gender
   type: single_select
@@ -28,24 +28,24 @@
 - question_slug: insensitive
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: care
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: therapist
   type: single_select
@@ -58,13 +58,13 @@
 - question_slug: energized
   type: single_select
   answer_scores:
-    0 : 6
-    1 : 5
-    2 : 4
-    3 : 3
-    4 : 2
-    5 : 1
-    6 : 0
+    '0' : 6
+    '1' : 5
+    '2' : 4
+    '3' : 3
+    '4' : 2
+    '5' : 1
+    '6' : 0
 
 - question_slug: live
   type: single_select
@@ -86,13 +86,13 @@
 - question_slug: too hard
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: ethinicity
   type: single_select
@@ -106,13 +106,13 @@
 - question_slug: emotionally
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: lack
   type: single_select
@@ -125,93 +125,93 @@
 - question_slug: morning
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: support
   type: single_select
   answer_scores:
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
-    7 : 7
-    8 : 8
-    9 : 9
-    10 : 10
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
+    '7' : 7
+    '8' : 8
+    '9' : 9
+    '10': 10
 
 - question_slug: impression
   type: single_select
   answer_scores:
-    0 : 6
-    1 : 5
-    2 : 4
-    3 : 3
-    4 : 2
-    5 : 1
-    6 : 0
+    '0' : 6
+    '1' : 5
+    '2' : 4
+    '3' : 3
+    '4' : 2
+    '5' : 1
+    '6' : 0
 
 - question_slug: working
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: patients
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3': 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: relaxed
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: accomplished
   type: single_select
   answer_scores:
-    0 : 6
-    1 : 5
-    2 : 4
-    3 : 3
-    4 : 2
-    5 : 1
-    6 : 0
+    '0' : 6
+    '1' : 5
+    '2' : 4
+    '3' : 3
+    '4' : 2
+    '5' : 1
+    '6' : 0
 
 - question_slug: understand
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3': 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: believe
   type: single_select
@@ -225,68 +225,68 @@
 - question_slug: problems
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: crack
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: clients
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: frustrated
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: drained
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: energy
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2': 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: marital
   type: single_select
@@ -300,35 +300,35 @@
 - question_slug: calmly
   type: single_select
   answer_scores:
-    0 : 6
-    1 : 5
-    2 : 4
-    3 : 3
-    4 : 2
-    5 : 1
-    6 : 0
+    '0' : 6
+    '1' : 5
+    '2' : 4
+    '3' : 3
+    '4' : 2
+    '5' : 1
+    '6' : 0
 
 - question_slug: wits end
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6: 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: anxiety
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: coping
   type: single_select
@@ -341,13 +341,13 @@
 - question_slug: sleep
   type: single_select
   answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
 
 - question_slug: assistance
   type: single_select
@@ -359,10 +359,10 @@
 - question_slug: satisfaction
   type: single_select
   answer_scores:
-    0 : 6
-    1 : 5
-    2 : 4
-    3 : 3
-    4 : 2
-    5 : 1
-    6 : 0
+    '0' : 6
+    '1' : 5
+    '2' : 4
+    '3': 3
+    '4' : 2
+    '5' : 1
+    '6' : 0
