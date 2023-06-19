@@ -57,7 +57,20 @@ def get_score(question, answer):
 
 def process_answer(response: Dict):
     severity_score = 0
+    import logging
+    # Set up logging
+    logging.basicConfig(
+        level=logging.INFO,  # Set the desired log level (e.g., INFO, DEBUG)
+        format='%(asctime)s [%(levelname)s] %(message)s',  # Define log message format
+        handlers=[
+            logging.FileHandler('app.log'),  # Output logs to a file
+            logging.StreamHandler()  # Output logs to the console
+        ]
+    )
+
+    # Start logging
     for q, a in response.items():
-            severity_score += get_score(q, a).values()
+        logging.info(get_score(q, a))
+        severity_score += get_score(q, a)
 
     return (severity_score)
