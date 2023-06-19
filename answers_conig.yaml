@@ -234,7 +234,7 @@
     6 : 6
   question_slug: frustrated
   type: single_select
-  - answer_scores:
+- answer_scores:
     0 : 0
     1 : 1
     2 : 2
