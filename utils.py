@@ -64,17 +64,8 @@ def process_answer(response: Dict) -> Tuple:
         'trauma': 0
     }
     for q, a in response.items():
-        if 'ptsd' in q:
-            severity_score['ptsd'] += get_score(q, a)
-        elif 'sud' in q:
-            severity_score['sud'] += get_score(q, a)
-        elif 'anxiety' in q:
-            severity_score['anxiety'] += get_score(q, a)
-        elif 'trauma' in q:
-            severity_score['anxiety'] += get_score(q, a)
-        else:
             severity_score['general'] += get_score(q, a)
 
     total_severity = sum(severity_score.values())
 
-    return (total_severity, severity_score) 
+    return (total_severity) 
