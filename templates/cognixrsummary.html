@@ -127,8 +127,9 @@
           <p style="margin-top: 0;"><strong>Initials: </strong>{{ initials}}</p>
           <p><strong>Gender: </strong>{{ gender }}</p>
           <p><strong>Age: </strong> {{ age }}</p>
-          <p><strong>Country-Province/State: </strong>{{ address }}</p>
-          <p><strong>Occupation: </strong>{{ occupation }}</p>
+          <p><strong>Country-Province/State: </strong>{{ live }}</p>
+          <p><strong>Ethnicity: </strong>{{ ethnicity }}</p>
+	  <p><strong>Marital status: </strong>{{ marital }}</p>
         </td>
       </tr>
     </table>
@@ -138,22 +139,21 @@
       style="padding: 0px 30px 30px 60px">
       <tr>
         <td>
-          <h2>History</h2>
+          <h2>Preferences</h2>
         </td>
       </tr>
       <tr>
         <td>
-          <p style="margin-top: 0;"><strong>Had previous diagnosis: </strong>{{ have_prev_diagnosis or 'N/A'}}</p>
-          <p><strong>Experienced symptoms: </strong>{{ experienced_symptoms or 'N/A' }}</p>
-          <p><strong>Treatment Received in past: </strong>{{treatment_receieved_past or 'N/A'}}</p>
-          <p><strong>Receiving any treatments: </strong>{{treatment_receieved_present or 'N/A'}} </p>
-          <p><strong>Medication history: </strong>{{ medication_text or 'N/A' }}</p>
+          <p style="margin-top: 0;"><strong>Number of sessions preferred: </strong>{{ believe or 'N/A'}}</p>
+          <p><strong>Importance of therapist's cultural background: </strong>{{ therapist or 'N/A' }}</p>
+          <p><strong>Affected by therapist's lack of cultural competence? </strong>{{lack or 'N/A'}}</p>
+          <p><strong>Preferred background of therapist: </strong>{{support or 'N/A'}} </p>
         </td>
       </tr>
     </table>
 
     <!--Third Row Needs -->
-    <table table role="presentation" border="0" cellpadding="0" cellspacing="10px" width="100%"
+    <!--<table table role="presentation" border="0" cellpadding="0" cellspacing="10px" width="100%"
       style="padding: 0px 30px 30px 60px">
       <tr>
         <td>
@@ -175,7 +175,7 @@
           <p><strong>Preferred treatment: </strong>{{ preferred_therapy or 'N/A' }}</p>
         </td>
       </tr>
-    </table>
+    </table>-->
 
     <!--Forth Row Action Buttons -->
     <!-- <table role="presentation" border="0" cellpadding="0" cellspacing="10px" width="100%"
