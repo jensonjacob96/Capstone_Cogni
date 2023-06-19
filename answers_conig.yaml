@@ -1,30 +1,33 @@
 - question_slug: age
   type: single_select
-- answer_scores:
+  answer_scores:
     18 - 24: 0
     25 - 34: 0
     35 - 44: 0
     45 - 54: 0
     55+ : 0
-  question_slug: exhausted
-  type: single_select
-- answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
-  question_slug: gender
+
+- question_slug: exhausted
   type: single_select
   answer_scores:
-   Male : 0
-   Female : 0
-   Prefer not to say : 0
+    0 : 0
+    1 : 1
+    2 : 2
+    3 : 3
+    4 : 4
+    5 : 5
+    6 : 6
+
+- question_slug: gender
+  type: single_select
+  answer_scores:
+    Male : 0
+    Female : 0
+    Prefer not to say : 0
+
 - question_slug: insensitive
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -32,9 +35,10 @@
     4 : 4
     5 : 5
     6 : 6
+
 - question_slug: care
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -42,17 +46,18 @@
     4 : 4
     5 : 5
     6 : 6
+
 - question_slug: therapist
   type: single_select
-- answer_scores:
+  answer_scores:
     Very Important : 0
     Somewhat important : 0
     Not so important : 0
     Prefer not to say : 0
-   
+
 - question_slug: energized
-- type: single_select
-- answer_scores:
+  type: single_select
+  answer_scores:
     0 : 6
     1 : 5
     2 : 4
@@ -60,9 +65,10 @@
     4 : 2
     5 : 1
     6 : 0
-  question_slug: live
+
+- question_slug: live
   type: single_select
-- answer_scores:
+  answer_scores:
     United States: 0
     Canada: 0
     Australia: 0
@@ -73,11 +79,13 @@
     Japan : 0
     Africa : 0
     Other : 0
-  question_slug: E-mail
+
+- question_slug: E-mail
   type: text
+
 - question_slug: too hard
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -85,17 +93,19 @@
     4 : 4
     5 : 5
     6 : 6
-  question_slug: ethinicity
+
+- question_slug: ethinicity
   type: single_select
-- answer_scores:
+  answer_scores:
     Asian : 0
     Hispanic : 0
     Native America : 0
     Black/African American : 0
     Prefer not to say : 0
-  question_slug: emotionally
+
+- question_slug: emotionally
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -103,16 +113,18 @@
     4 : 4
     5 : 5
     6 : 6
-  question_slug: lack
+
+- question_slug: lack
   type: single_select
-- answer_scores:
+  answer_scores:
     Really affected me: 0
     Somewhat affected me: 0
     Never affected me: 0
     I have not undergone therapy until now: 0
-  question_slug: morning
+
+- question_slug: morning
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -120,9 +132,10 @@
     4 : 4
     5 : 5
     6 : 6
-  question_slug: support
+
+- question_slug: support
   type: single_select
-- answer_scores:
+  answer_scores:
     1 : 1
     2 : 2
     3 : 3
@@ -133,78 +146,21 @@
     8 : 8
     9 : 9
     10 : 10
-  question_slug: impression
-  type: single_select
-- answer_scores:
-    0 : 6
-    1 : 5
-    2 : 4
-    3 : 3
-    4 : 2
-    5 : 1
-    6 : 0
-  question_slug: working
-  type: single_select
-- answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
-  question_slug: patients
-  type: single_select
-- answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
-  question_slug: relaxed
-  type: single_select
-- answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
-  question_slug: accomplished
-  type: single_select
-- answer_scores:
-    0 : 6
-    1 : 5
-    2 : 4
-    3 : 3
-    4 : 2
-    5 : 1
-    6 : 0
-  question_slug: understand
-  type: single_select
-- answer_scores:
-    0 : 0
-    1 : 1
-    2 : 2
-    3 : 3
-    4 : 4
-    5 : 5
-    6 : 6
-  question_slug: believe
-  type: single_select
-- answer_scores:
-   1-2 sessions : 0
-   2-4 sessions : 0
-   4-6 sessions : 0
-   6-12 sessions : 0
-   12 sessions and more : 0
 
-  question_slug: problems
+- question_slug: impression
   type: single_select
-- answer_scores:
+  answer_scores:
+    0 : 6
+    1 : 5
+    2 : 4
+    3 : 3
+    4 : 2
+    5 : 1
+    6 : 0
+
+- question_slug: working
+  type: single_select
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -212,9 +168,10 @@
     4 : 4
     5 : 5
     6 : 6
-  question_slug: crack
+
+- question_slug: patients
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -222,9 +179,10 @@
     4 : 4
     5 : 5
     6 : 6
-  question_slug: clients
+
+- question_slug: relaxed
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -232,9 +190,21 @@
     4 : 4
     5 : 5
     6 : 6
-  question_slug: frustrated
+
+- question_slug: accomplished
   type: single_select
-- answer_scores:
+  answer_scores:
+    0 : 6
+    1 : 5
+    2 : 4
+    3 : 3
+    4 : 2
+    5 : 1
+    6 : 0
+
+- question_slug: understand
+  type: single_select
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -242,9 +212,63 @@
     4 : 4
     5 : 5
     6 : 6
+
+- question_slug: believe
+  type: single_select
+  answer_scores:
+    1-2 sessions : 0
+    2-4 sessions : 0
+    4-6 sessions : 0
+    6-12 sessions : 0
+    12 sessions and more : 0
+
+- question_slug: problems
+  type: single_select
+  answer_scores:
+    0 : 0
+    1 : 1
+    2 : 2
+    3 : 3
+    4 : 4
+    5 : 5
+    6 : 6
+
+- question_slug: crack
+  type: single_select
+  answer_scores:
+    0 : 0
+    1 : 1
+    2 : 2
+    3 : 3
+    4 : 4
+    5 : 5
+    6 : 6
+
+- question_slug: clients
+  type: single_select
+  answer_scores:
+    0 : 0
+    1 : 1
+    2 : 2
+    3 : 3
+    4 : 4
+    5 : 5
+    6 : 6
+
+- question_slug: frustrated
+  type: single_select
+  answer_scores:
+    0 : 0
+    1 : 1
+    2 : 2
+    3 : 3
+    4 : 4
+    5 : 5
+    6 : 6
+
 - question_slug: drained
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -252,9 +276,10 @@
     4 : 4
     5 : 5
     6 : 6
-  question_slug: energy
+
+- question_slug: energy
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -262,17 +287,19 @@
     4 : 4
     5 : 5
     6 : 6
-  question_slug: marital
+
+- question_slug: marital
   type: single_select
-- answer_scores:
-  Married : 0
-  Single : 0
-  Divorced : 0
-  Widowed : 0
-  Prefer not to say : 0
+  answer_scores:
+    Married : 0
+    Single : 0
+    Divorced : 0
+    Widowed : 0
+    Prefer not to say : 0
+
 - question_slug: calmly
   type: single_select
-- answer_scores:
+  answer_scores:
     0 : 6
     1 : 5
     2 : 4
@@ -280,9 +307,21 @@
     4 : 2
     5 : 1
     6 : 0
-  question_slug: wits end
+
+- question_slug: wits end
   type: single_select
-- answer_scores:
+  answer_scores:
+    0 : 0
+    1 : 1
+    2 : 2
+    3 : 3
+    4 : 4
+    5 : 5
+     6: 6
+
+- question_slug: anxiety
+  type: single_select
+  answer_scores:
     0 : 0
     1 : 1
     2 : 2
@@ -290,6 +329,40 @@
     4 : 4
     5 : 5
     6 : 6
-- question_slug: responders
-  type: text
 
+- question_slug: coping
+  type: single_select
+  answer_scores:
+    Not at all well : 0
+    Somewhat well : 0
+    Moderately well : 0
+    Very well : 0
+
+- question_slug: sleep
+  type: single_select
+  answer_scores:
+    0 : 0
+    1 : 1
+    2 : 2
+    3 : 3
+    4 : 4
+    5 : 5
+    6 : 6
+
+- question_slug: assistance
+  type: single_select
+  answer_scores:
+    Yes : 0
+    No : 0
+    Prefer not to say : 0
+
+- question_slug: satisfaction
+  type: single_select
+  answer_scores:
+    0 : 6
+    1 : 5
+    2 : 4
+    3 : 3
+    4 : 2
+    5 : 1
+    6 : 0
