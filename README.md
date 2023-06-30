@@ -26,6 +26,8 @@ This file consist of all the required packages libraries used to make the app eu
 **utils.py**
 Database and mail settitngs can be found in this file. Other than that reading the answer config file can be seen here. And based on that teh severity score is logged.
 
+**cognixrsummary.html**
+This file contains the UI part displayed in the mail. Basically the template where the user sees the score in the email.
 
 **FLow of the project**
 - Github has the answer file named as answers_config.yaml where all the answers are logged with the desired scores for each response.
